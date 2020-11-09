@@ -6,4 +6,11 @@ if (!function_exists('gogApple')){
     }
 }
 
+
+if (!function_exists('gogBanana')){
+    function gogBanana(){
+        print_r(func_get_args());
+    }
+}
+
 ?>
