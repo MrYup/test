@@ -13,4 +13,12 @@ if (!function_exists('gogBanana')){
     }
 }
 
+
+if (!function_exists('gogBear')){
+    function gogBear(){
+        print_r(func_get_args());
+    }
+}
+
+
 ?>
