@@ -21,4 +21,11 @@ if (!function_exists('gogBear')){
 }
 
 
+
+if (!function_exists('gogBearArr')){
+    function gogBearArr(){
+        print_r(func_get_args());
+    }
+}
+
 ?>
